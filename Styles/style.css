@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: capitalize;
+}
+body {
+  display: flex;
+  background-image: url("../Images/background.svg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+h1 {
+  margin-bottom: 1rem;
+}
+form {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  padding: .4em;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+}
+button {
+  padding: .7em;
+  border: none;
+  background-color: aqua;
+  font-size: 14px;
+}
+.todo-container {
+  margin: 10px;
+}
+.todo {
+  background-color: white;
+  width: 500px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.trash-btn {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
